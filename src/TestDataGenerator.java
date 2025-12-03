@@ -5,8 +5,8 @@ public class TestDataGenerator {
         // 1. Базовые переменные (как в реальных тестах)
         String testUser = "qa_tester_" + System.currentTimeMillis();
         String testEmail = testUser + "@testmail.com";
-        String testPassword = "Test@Pass123" ; // new password 
-        String testPhoneNumber = "+79999999999" // new 
+        String testPassword = "Test@Pass123"; // new password 
+        String testPhoneNumber = "+79999999999";// new 
         int userAge = 25;
         int loginAttempts = 3; // new (task)
         boolean isPremiumUser = true;
@@ -17,7 +17,7 @@ public class TestDataGenerator {
         System.out.println("👤 Логин: " + testUser);
         System.out.println("📧 Email: " + testEmail);
         System.out.println("🔒пароль :"+testPassword);
-        System.out.println("🚪Количество  попыток входов :"+testPassword);
+        System.out.println("🚪Количество  попыток входов :"+loginAttempts);
         System.out.println("📱телефон :"+testPhoneNumber);
         System.out.println("🎂 Возраст: " + userAge + " лет");
         System.out.println("⭐ Премиум: " + (isPremiumUser ? "Да" : "Нет"));
